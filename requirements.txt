@@ -1,0 +1,7 @@
+# requirements.txt
+aiohttp==3.9.1
+aiohttp-cors==0.7.0
+websockets==12.0
+numpy==1.24.3
+sqlite3
+python-dotenv==1.0.0
