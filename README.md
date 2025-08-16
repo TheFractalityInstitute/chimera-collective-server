@@ -2,7 +2,7 @@
 render server for the CHIMERA Collective
 
 
-
+```
 chimera-collective-server/
 ├── app.py                    # Main server application
 ├── requirements.txt          # Python dependencies
@@ -16,3 +16,4 @@ chimera-collective-server/
     │   └── websocket.py     # WebSocket handlers
     └── fractality/
         └── ... (fractality modules)
+```
