@@ -1,0 +1,16 @@
+# render.yaml
+services:
+  - type: web
+    name: chimera-collective
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: SERVER_NAME
+        value: CHIMERA-Prime
+      - key: DATABASE_URL
+        generateValue: true
+      - key: SECRET_KEY
+        generateValue: true
+    healthCheckPath: /status
+    autoDeploy: true
