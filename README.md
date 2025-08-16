@@ -17,3 +17,12 @@ chimera-collective-server/
     └── fractality/
         └── ... (fractality modules)
 ```
+
+
+
+## Environment Variables to Set:
+
+SERVER_NAME=CHIMERA-Prime
+ENABLE_COLLECTIVE=true
+MAX_NODES=100
+EMERGENCE_THRESHOLD=0.8
