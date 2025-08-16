@@ -22,7 +22,11 @@ chimera-collective-server/
 
 ## Environment Variables to Set:
 
+```
 SERVER_NAME=CHIMERA-Prime
 ENABLE_COLLECTIVE=true
 MAX_NODES=100
 EMERGENCE_THRESHOLD=0.8
+```
+
+
